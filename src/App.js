@@ -11,7 +11,13 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
         </div> */}
-
+        <p className="App-intro">
+          <div className="cruise"></div>
+        </p>
+        <div className="flags-container">
+          <div className="flag english"></div>
+          <div className="flag german"></div>
+        </div>
       </div>
     );
   }
