@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 // import logo from './images/logo.svg';
 
-// import Languages from './components/Languages/Languages';
+import Languages from './components/Languages/Languages';
 import DisplayTime from './components/Countdown/Countdown';
-// import lang from './components/Languages/languages.json';
+import lang from './components/Languages/langs.json';
 
 import './App.css';
 
@@ -23,10 +23,10 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div> */}
         <p className="App-intro">
-          {/* <h1>{lang.timerHeading.en}</h1> */}
+          <h1>{lang.timerHeading.en}</h1>
           <div className="cruise"></div>
         </p>
-        {/* <Languages /> */}
+        <Languages />
         <DisplayTime />
       </div>
     );

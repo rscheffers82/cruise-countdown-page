@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import moment from 'moment';
-import lang from './../Languages/languages.json';
+import lang from '../Languages/langs.json';
 
 import './Countdown.css';
 

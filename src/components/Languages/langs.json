@@ -1,0 +1,30 @@
+{
+  "title": {
+    "en": "Welcome",
+    "german": "Willkommen"
+  },
+  "timerHeading": {
+    "en": "Snjega and Aleksandra will board in",
+    "german": "Snjega und Aleksandra fahren ab in"
+  },
+  "weeks": {
+    "en": "weeks",
+    "german": "Wochen"
+  },
+  "days": {
+    "en": "days",
+    "german": "Tagen"
+  },
+  "hours": {
+    "en": "hours",
+    "german": "Stunden"
+  },
+  "minutes": {
+    "en": "minutes",
+    "german": "Minuten "
+  },
+  "seconds": {
+    "en": "seconds",
+    "german": "Sekunden"
+  }
+}
