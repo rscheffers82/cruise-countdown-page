@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 // import moment from 'moment';
-import lang from './../languages/languages.json';
+import lang from './../Languages/languages.json';
 
-import './DisplayTime.css';
+import './Countdown.css';
 
-class Time extends Component {
+class Countdown extends Component {
   constructor(props){
     super(props);
   }
@@ -37,4 +37,4 @@ class Time extends Component {
   }
 }
 
-export default Time;
+export default Countdown;
