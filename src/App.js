@@ -11,11 +11,16 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      lang: 'en'
+      language: 'en'
     }
   }
 
+  handleClick = (language) => {
+    this.setState({ language });
+  }
+
   render() {
+    const { language } = this.state;
     return (
       <div className="App">
         {/* <div className="App-header">
@@ -23,11 +28,11 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div> */}
         <p className="App-intro">
-          <h1>{lang.timerHeading.en}</h1>
+          <h1>{lang.timerHeading[language]}</h1>
           <div className="cruise"></div>
         </p>
-        <Languages />
-        <DisplayTime />
+        <Languages handleClick={this.handleClick}/>
+        <DisplayTime language={language}/>
       </div>
     );
   }
