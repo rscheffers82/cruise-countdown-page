@@ -14,6 +14,16 @@
   color: white;
 }
 
+h1 {
+  color: #fafafc;
+  color: #333;*/
+  padding: 20px 50px;
+  display: inline-block;
+  font-size: 2.5em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
 .App-intro {
   font-size: large;
 }
@@ -36,6 +46,7 @@
   content: '';
   opacity: 1;
   transition: all 1s ease-in-out;
+  z-index: -10;
 }
 
 .cruise::before {
@@ -87,6 +98,7 @@
   padding: 0;
   cursor: pointer;
   border-radius: 50%;
+  border: 1px solid transparent;
   transition: box-shadow .5s ease-in;
 }
 
