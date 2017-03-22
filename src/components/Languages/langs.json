@@ -1,30 +1,37 @@
 {
   "title": {
     "en": "Welcome",
-    "de": "Willkommen"
+    "de": "Willkommen",
+    "rs": ""
   },
   "timerHeading": {
     "en": "Snjega and Aleksandra will board in",
-    "de": "Snjega und Aleksandra fahren ab in"
+    "de": "Snjega und Aleksandra fahren ab in",
+    "rs": "Snjega i Aleksandra će ukrcati u"
   },
   "weeks": {
     "en": "weeks",
-    "de": "Wochen"
+    "de": "Wochen",
+    "rs": ""
   },
   "days": {
     "en": "days",
-    "de": "Tagen"
+    "de": "Tagen",
+    "rs": "dani"
   },
   "hours": {
     "en": "hours",
-    "de": "Stunden"
+    "de": "Stunden",
+    "rs": "sati"
   },
   "minutes": {
     "en": "minutes",
-    "de": "Minuten "
+    "de": "Minuten ",
+    "rs": "minuta"
   },
   "seconds": {
     "en": "seconds",
-    "de": "Sekunden"
+    "de": "Sekunden",
+    "rs": "sekunde"
   }
 }

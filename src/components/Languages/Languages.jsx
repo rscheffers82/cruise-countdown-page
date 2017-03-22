@@ -21,6 +21,7 @@ class Languages extends Component {
       <div className="flags-container">
         <div className="flag english" onClick={this.onClick.bind(this, 'en')}></div>
         <div className="flag german" onClick={this.onClick.bind(this, 'de')}></div>
+        <div className="flag serbian" onClick={this.onClick.bind(this, 'rs')}></div>
       </div>
     );
   }

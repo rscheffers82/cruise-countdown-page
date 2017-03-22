@@ -31,6 +31,7 @@
   border-radius: 50%;
   border: 1px solid transparent;
   transition: box-shadow .5s ease-in;
+  /*border: 1px solid red;*/
 }
 
 .flag:hover {
@@ -41,10 +42,14 @@
   margin-right: 0px;
 }
 
+.english {
+  background-image: url(../../images/uk-flag.png);
+}
+
 .german {
   background-image: url(../../images/german-flag.png);
 }
 
-.english {
-  background-image: url(../../images/uk-flag.png);
+.serbian {
+  background-image: url(../../images/serbian-flag.png);
 }
