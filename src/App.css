@@ -1,10 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300');
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40px;
 }
 
 .App-header {
@@ -15,22 +12,20 @@
 }
 
 h1 {
+  font-family: 'Raleway', sans-serif;
   color: #fafafc;
-  color: #333;*/
+  background-color: rgba(50,50,50,0.5);
   padding: 20px 50px;
   display: inline-block;
   font-size: 2.5em;
   font-weight: 300;
   text-transform: uppercase;
+  border-radius: 3px;
+  padding: .75em;
 }
 
 .App-intro {
   font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
 
 .cruise {
@@ -57,7 +52,7 @@ h1 {
   width: 100%;
   height: 100%;
   background-color: rgba(255,255,255,0);
-  animation: darken infinite 5s linear;
+  /*animation: darken infinite 5s linear;*/
 }
 
 @keyframes darken {
