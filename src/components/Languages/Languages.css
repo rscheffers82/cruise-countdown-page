@@ -43,13 +43,13 @@
 }
 
 .english {
-  background-image: url(../../images/uk-flag.png);
+  background-image: url(./uk-flag.png);
 }
 
 .german {
-  background-image: url(../../images/german-flag.png);
+  background-image: url(./german-flag.png);
 }
 
 .serbian {
-  background-image: url(../../images/serbian-flag.png);
+  background-image: url(./serbian-flag.png);
 }
