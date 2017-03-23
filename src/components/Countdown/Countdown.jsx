@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import moment from 'moment';
-require('moment-precise-range-plugin');
+import 'moment-precise-range-plugin';
 import lang from '../Languages/langs.json';
 
 import './Countdown.css';
@@ -8,38 +8,43 @@ import './Countdown.css';
 class Countdown extends Component {
   constructor(props){
     super(props);
+    this.state = {
+      cruiseTime: null
+    }
   }
 
-  updateTime = () => {
+  updateTime = (cT) => {
     let now = moment();
-    let cruiseTime = moment(this.props.date, "YYYY-MM-DD HH:mm Z");
-    let m = moment.preciseDiff(cruiseTime, now, true);
+    let cruiseTime = cT ? cT : this.state.cruiseTime
+    let diff = moment.preciseDiff(now, cruiseTime, true);
     this.setState({
-      m: m,
-      months: m.months,
-      days: m.days,
-      hours: m.hours,
-      minutes: m.minutes,
-      seconds: m.seconds
+      diff,
+      expired: diff.firstDateWasLater,
+      months: diff.months,
+      days: diff.days,
+      hours: diff.hours,
+      minutes: diff.minutes,
+      seconds: diff.seconds
     });
   }
 
-  // componentWillMount() {
-  //   this.timer = setInterval( () => {
-  //     this.updateTime();
-  //   },1000);
-  // }
   componentWillMount() {
-    this.updateTime();
+    let cruiseTime = moment(this.props.date, "YYYY-MM-DD HH:mm Z");
+    this.updateTime(cruiseTime);
+    this.setState({ cruiseTime });
+    
+    this.timer = setInterval( () => {
+      this.updateTime();
+    },1000);
   }
 
   render() {
     const { language } = this.props;
-    var { m, months, days, hours, minutes, seconds } = this.state;
+    var { diff, months, days, hours, minutes, seconds } = this.state;
 
     return (
       <div className="time-wrapper">
-        {console.log('moment': m)}
+        {console.log('Diference: ', diff)}
         days: {days}<br />
         hours: {hours}<br />
         minutes: {minutes}<br />

@@ -27,13 +27,13 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
         </div> */}
-        <p className="App-intro">
+        <div className="App-intro">
           <h1>{lang.timerHeading[language]}</h1>
           <div className="cruise"></div>
-        </p>
+        </div>
         <Languages handleClick={this.handleClick}/>
         {/* moment("2017-03-25 4:30 +0000", "YYYY-MM-DD HH:mm Z"); */}
-        <DisplayTime date={'2017-03-23 4:30 -0500'} language={language}/>
+        <DisplayTime date={'2017-03-27 4:30 -0500'} language={language}/>
       </div>
     );
   }
