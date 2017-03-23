@@ -32,7 +32,8 @@ class App extends Component {
           <div className="cruise"></div>
         </p>
         <Languages handleClick={this.handleClick}/>
-        <DisplayTime language={language}/>
+        {/* moment("2017-03-25 4:30 +0000", "YYYY-MM-DD HH:mm Z"); */}
+        <DisplayTime date={'2017-03-23 4:30 -0500'} language={language}/>
       </div>
     );
   }
