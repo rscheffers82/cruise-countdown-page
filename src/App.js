@@ -23,17 +23,16 @@ class App extends Component {
     const { language } = this.state;
     return (
       <div className="App">
-        {/* <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div> */}
         <div className="App-intro">
           <h1>{lang.timerHeading[language]}</h1>
           <div className="cruise"></div>
         </div>
         <Languages handleClick={this.handleClick}/>
-        {/* moment("2017-03-25 4:30 +0000", "YYYY-MM-DD HH:mm Z"); */}
-        <DisplayTime date={'2017-03-27 4:30 -0500'} language={language}/>
+        {/*
+          Provide the time in the following format "yyyy-mm-dd hh:mm 0000"
+          for example: "2017-03-25 4:30 +0100" +0100 in this case is the timezone UTC +1
+        */}
+        <DisplayTime date={'2017-07-26 12:30 -0500'} language={language}/>
       </div>
     );
   }

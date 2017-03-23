@@ -19,7 +19,9 @@
   font-weight: 300;
   padding: 10px 5px;
   background-color: rgba(250, 250, 250, .85);
+  background-color: rgba(190, 190, 200, 0.75);
   color: #333;
+  color: rgba(60, 60, 60, 1);
   display: inline-block;
   margin: 10px;
   border-radius: 3px;
@@ -27,9 +29,10 @@
   font-size: 3em;
   border-bottom: 1px solid rgba(27, 165, 236, 0.95);
   min-width: 35px;
+  position: relative;
 }
 
-.two {
+.followup {
   margin-left: -5px;
 }
 

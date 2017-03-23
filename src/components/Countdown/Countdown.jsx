@@ -17,6 +17,15 @@ class Countdown extends Component {
     let now = moment();
     let cruiseTime = cT ? cT : this.state.cruiseTime
     let diff = moment.preciseDiff(now, cruiseTime, true);
+
+    // add code for when they are onboard
+
+    // add code for expiration
+
+    if(diff.months > 0) {
+      diff.days = cruiseTime.diff(now, 'days');
+    }
+
     this.setState({
       diff,
       expired: diff.firstDateWasLater,
@@ -32,7 +41,7 @@ class Countdown extends Component {
     let cruiseTime = moment(this.props.date, "YYYY-MM-DD HH:mm Z");
     this.updateTime(cruiseTime);
     this.setState({ cruiseTime });
-    
+
     this.timer = setInterval( () => {
       this.updateTime();
     },1000);
@@ -40,35 +49,33 @@ class Countdown extends Component {
 
   render() {
     const { language } = this.props;
-    var { diff, months, days, hours, minutes, seconds } = this.state;
+    var { days, hours, minutes, seconds } = this.state;
+
+    var displayTimeUnit = (unit, count) => {
+      let txtCount = '' + count;
+      let arr = txtCount.split('');
+      if (arr.length <= 1) arr.unshift('0');
+
+      let digits =  arr.map( (digit, i) => {
+        return i === 0 ?
+          ( <div className="part">{digit}</div> ) :
+          ( <div className="part followup">{digit}</div> )
+      });
+
+      return (
+        <span className={unit}>
+          {digits}
+          <div>{lang[unit][language]}</div>
+        </span>
+      );
+    }
 
     return (
       <div className="time-wrapper">
-        {console.log('Diference: ', diff)}
-        days: {days}<br />
-        hours: {hours}<br />
-        minutes: {minutes}<br />
-        seconds: {seconds}<br />
-        <span className="days">
-          <div className="part">1</div>
-          <div className="part two">0</div>
-          <div>{lang.days[language]}</div>
-        </span>
-        <span className="hours">
-          <div className="part">1</div>
-          <div className="part two">2</div>
-          <div>{lang.hours[language]}</div>
-        </span>
-        <span className="minutes">
-          <div className="part">0</div>
-          <div className="part two">9</div>
-          <div>{lang.minutes[language]}</div>
-        </span>
-        <span className="seconds">
-          <div className="part">2</div>
-          <div className="part two">3</div>
-          <div>{lang.seconds[language]}</div>
-        </span>
+        {displayTimeUnit('days', days)}
+        {displayTimeUnit('hours', hours)}
+        {displayTimeUnit('minutes', minutes)}
+        {displayTimeUnit('seconds', seconds)}
       </div>
     );
   }

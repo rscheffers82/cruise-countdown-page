@@ -7,12 +7,7 @@
   "timerHeading": {
     "en": "Snjega and Aleksandra will board in",
     "de": "Snjega und Aleksandra fahren ab in",
-    "rs": "Snjega i Aleksandra će ukrcati u"
-  },
-  "weeks": {
-    "en": "weeks",
-    "de": "Wochen",
-    "rs": ""
+    "rs": "Snjega i Aleksandra će se ukrcati u"
   },
   "days": {
     "en": "days",
@@ -27,7 +22,7 @@
   "minutes": {
     "en": "minutes",
     "de": "Minuten ",
-    "rs": "minuta"
+    "rs": "minute"
   },
   "seconds": {
     "en": "seconds",
