@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:200,300');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200');
 
 .App {
   text-align: center;
@@ -12,12 +12,12 @@
 }
 
 h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #fafafc;
   background-color: rgba(50,50,50,0.5);
   display: inline-block;
   font-size: 2.5em;
-  font-weight: 300;
+  font-weight: 200;
   text-transform: uppercase;
   border-radius: 5px;
   padding: .75em;
@@ -29,7 +29,7 @@ h1 {
 }
 
 .cruise {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   /*background-image: url(./images/sunset-at-sea.jpg);*/

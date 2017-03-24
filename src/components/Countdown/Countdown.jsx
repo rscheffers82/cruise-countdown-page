@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import moment from 'moment';
+// eslint-disable-next-line
 import 'moment-precise-range-plugin';
 import lang from '../Languages/langs.json';
 
