@@ -31,7 +31,6 @@
   border-radius: 50%;
   border: 1px solid transparent;
   transition: box-shadow .5s ease-in;
-  /*border: 1px solid red;*/
 }
 
 .flag:hover {

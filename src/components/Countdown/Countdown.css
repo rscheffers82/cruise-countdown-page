@@ -16,16 +16,15 @@
 .part {
   font-family: 'digital-7', sans-serif;
   font-weight: 300;
-  padding: 10px 5px;
-  background-color: rgba(230, 230, 240, .85);
-  color: #333;
-  color: rgba(50, 50, 50, 1);
-  display: inline-block;
-  margin: 10px;
-  border-radius: 3px;
-  border: 1px solid rgba(131, 157, 175, 0.8);
   font-size: 3em;
+  padding: 10px 5px;
+  margin: 10px;
+  background-color: rgba(230, 230, 240, .85);
+  color: rgb(50, 50, 50);
+  display: inline-block;
+  border: 1px solid rgba(131, 157, 175, 0.8);
   border-bottom: 1px solid rgba(27, 165, 236, 0.95);
+  border-radius: 3px;
   min-width: 35px;
   min-height: 55px;
   position: relative;
@@ -41,7 +40,6 @@
   color: #eee;
   text-transform: capitalize;
   font-size: 1.5em;
-
 }
 
 @media (max-width: 525px){

@@ -20,4 +20,8 @@ class Languages extends Component {
   }
 }
 
+Languages.propTypes = {
+	handleClick: React.PropTypes.func
+};
+
 export default Languages;

@@ -32,7 +32,6 @@ h1 {
   position: fixed;
   top: 0;
   left: 0;
-  /*background-image: url(./images/sunset-at-sea.jpg);*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -53,7 +52,6 @@ h1 {
 .bg5 {background-image: url(./images/daytime-fun.jpg); }
 .bg6 {background-image: url(./images/beach.jpg); }
 .bg7 {background-image: url(./images/Splendor-pool-back-city-backdrop.jpg); }
-/*.bg8 {background-image: url(./images/); }*/
 
 @media (max-width: 480px){
   h1 {

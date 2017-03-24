@@ -38,8 +38,8 @@ class App extends Component {
     const { language } = this.state;
     return (
       <div className="App">
-        <div className="App-intro">
-          <h1>{lang.timerHeading[language]}</h1>
+        <h1>{lang.timerHeading[language]}</h1>
+        <div className="backgrounds">
           <div className="cruise bg1 visible"></div>
           <div className="cruise bg2"></div>
           <div className="cruise bg3"></div>

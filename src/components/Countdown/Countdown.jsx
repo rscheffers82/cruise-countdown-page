@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import moment from 'moment';
-// eslint-disable-next-line
 import 'moment-precise-range-plugin';
 import lang from '../Languages/langs.json';
 
@@ -18,10 +17,6 @@ class Countdown extends Component {
     let now = moment();
     let cruiseTime = cT ? cT : this.state.cruiseTime
     let diff = moment.preciseDiff(now, cruiseTime, true);
-
-    // add code for when they are onboard
-
-    // add code for expiration
 
     if(diff.months > 0) {
       diff.days = cruiseTime.diff(now, 'days');
@@ -84,9 +79,7 @@ class Countdown extends Component {
 
 Countdown.propTypes = {
 	date: React.PropTypes.string,
-	// handleCancel: React.PropTypes.func,
-	// revision: React.PropTypes.object,
-	// annotationId: React.PropTypes.string,
+  lang: React.PropTypes.object,
 };
 
 export default Countdown;
