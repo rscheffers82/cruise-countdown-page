@@ -65,7 +65,7 @@ class Countdown extends Component {
       return (
         <span className={unit}>
           {digits}
-          <div>{lang[unit][language]}</div>
+          <div className="units">{lang[unit][language]}</div>
         </span>
       );
     }

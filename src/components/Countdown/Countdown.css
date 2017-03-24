@@ -7,9 +7,10 @@
 
 .time-wrapper {
   display: inline-block;
-  padding: 20px;
   border-radius: 5px;
   background-color: rgba(50,50,50,0.25);
+  padding: .75em;
+  margin: .75em .25em;
 }
 
 .part {
@@ -39,4 +40,18 @@
   color: #eee;
   text-transform: capitalize;
   font-size: 1.5em;
+
+}
+
+@media (max-width: 525px){
+  .part {
+    font-size: 2.5em;
+  }
+
+  .time-wrapper span {
+    margin: 0 4.5% 1em;
+  }
+  .time-wrapper .units {
+    font-size: 0.85em;
+  }
 }

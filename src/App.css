@@ -15,13 +15,13 @@ h1 {
   font-family: 'Raleway', sans-serif;
   color: #fafafc;
   background-color: rgba(50,50,50,0.5);
-  padding: 20px 50px;
   display: inline-block;
   font-size: 2.5em;
   font-weight: 300;
   text-transform: uppercase;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: .75em;
+  margin: .75em .25em;
 }
 
 .App-intro {
@@ -54,3 +54,11 @@ h1 {
 .bg6 {background-image: url(./images/beach.jpg); }
 .bg7 {background-image: url(./images/Splendor-pool-back-city-backdrop.jpg); }
 /*.bg8 {background-image: url(./images/); }*/
+
+@media (max-width: 480px){
+  h1 {
+    font-size: 2em;
+    padding: .5em;
+    margin: .9em .25em .25em .25em;
+  }
+}
