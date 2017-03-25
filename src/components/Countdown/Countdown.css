@@ -26,7 +26,8 @@
   border-bottom: 1px solid rgba(27, 165, 236, 0.95);
   border-radius: 3px;
   min-width: 35px;
-  min-height: 55px;
+  min-height: 50px;
+  /*line-height: 1.15em;*/
   position: relative;
 }
 
