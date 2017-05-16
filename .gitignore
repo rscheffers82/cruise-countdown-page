@@ -1,20 +1,65 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
+###  Component  ###
 # dependencies
-/node_modules
+/Component/node_modules
 
 # testing
-/coverage
+/Component/coverage
 
 # production
-/build
+/Component/build
 
 # misc
-.DS_Store
-.env
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+/Component/.DS_Store
+/Component/.env
+/Component/npm-debug.log*
+/Component/yarn-debug.log*
+/Component/yarn-error.log*
 
 # Images
-/development-images
+/Component/development-images
+
+
+
+###  Cruise  ###
+# dependencies
+/Cruise/node_modules
+
+# testing
+/Cruise/coverage
+
+# production
+/Cruise/build
+
+# misc
+/Cruise/.DS_Store
+/Cruise/.env
+/Cruise/npm-debug.log*
+/Cruise/yarn-debug.log*
+/Cruise/yarn-error.log*
+
+# Images
+/Cruise/development-images
+
+
+
+###  Elena2Eindhoven  ###
+# dependencies
+/Elena2Eindhoven/node_modules
+
+# testing
+/Elena2Eindhoven/coverage
+
+# production
+/Elena2Eindhoven/build
+
+# misc
+/Elena2Eindhoven/.DS_Store
+/Elena2Eindhoven/.env
+/Elena2Eindhoven/npm-debug.log*
+/Elena2Eindhoven/yarn-debug.log*
+/Elena2Eindhoven/yarn-error.log*
+
+# Images
+/Elena2Eindhoven/development-images
