@@ -1,27 +1,5 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
-###  Component  ###
-# dependencies
-/Component/node_modules
-
-# testing
-/Component/coverage
-
-# production
-/Component/build
-
-# misc
-/Component/.DS_Store
-/Component/.env
-/Component/npm-debug.log*
-/Component/yarn-debug.log*
-/Component/yarn-error.log*
-
-# Images
-/Component/development-images
-
-
-
 ###  Cruise  ###
 # dependencies
 /Cruise/node_modules

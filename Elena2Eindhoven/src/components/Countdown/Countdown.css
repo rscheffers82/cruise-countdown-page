@@ -1,0 +1,57 @@
+@font-face {
+ font-family: 'digital-7';
+ src: url('../../fonts/digital-7.ttf');
+ font-weight: normal;
+ font-style: normal;
+}
+
+.time-wrapper {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: rgba(50,50,50,0.25);
+  padding: .75em;
+  margin: .75em .25em;
+}
+
+.part {
+  font-family: 'digital-7', sans-serif;
+  font-weight: 300;
+  font-size: 3em;
+  padding: 10px 5px;
+  margin: 10px;
+  background-color: rgba(230, 230, 240, .85);
+  color: rgb(50, 50, 50);
+  display: inline-block;
+  border: 1px solid rgba(131, 157, 175, 0.8);
+  border-bottom: 1px solid rgba(27, 165, 236, 0.95);
+  border-radius: 3px;
+  min-width: 35px;
+  min-height: 50px;
+  /*line-height: 1.15em;*/
+  position: relative;
+}
+
+.followup {
+  margin-left: -5px;
+}
+
+.days, .hours, .minutes, .seconds {
+  display: inline-block;
+  margin: 0;
+  color: #eee;
+  text-transform: capitalize;
+  font-size: 1.5em;
+}
+
+@media (max-width: 525px){
+  .part {
+    font-size: 2.5em;
+  }
+
+  .time-wrapper span {
+    margin: 0 4.5% 1em;
+  }
+  .time-wrapper .units {
+    font-size: 0.85em;
+  }
+}
