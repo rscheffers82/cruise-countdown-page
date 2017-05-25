@@ -1,24 +1,46 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
-###  Cruise  ###
+
+###  Component  ###
 # dependencies
-/Cruise/node_modules
+/Component-tmp/node_modules
 
 # testing
-/Cruise/coverage
+/Component-tmp/coverage
 
 # production
-/Cruise/build
+/Component-tmp/build
 
 # misc
-/Cruise/.DS_Store
-/Cruise/.env
-/Cruise/npm-debug.log*
-/Cruise/yarn-debug.log*
-/Cruise/yarn-error.log*
+/Component-tmp/.DS_Store
+/Component-tmp/.env
+/Component-tmp/npm-debug.log*
+/Component-tmp/yarn-debug.log*
+/Component-tmp/yarn-error.log*
 
 # Images
-/Cruise/development-images
+/Component-tmp/development-images
+
+
+###  Cruise-tmp  ###
+# dependencies
+/Cruise-tmp/node_modules
+
+# testing
+/Cruise-tmp/coverage
+
+# production
+/Cruise-tmp/build
+
+# misc
+/Cruise-tmp/.DS_Store
+/Cruise-tmp/.env
+/Cruise-tmp/npm-debug.log*
+/Cruise-tmp/yarn-debug.log*
+/Cruise-tmp/yarn-error.log*
+
+# Images
+/Cruise-tmp/development-images
 
 
 
