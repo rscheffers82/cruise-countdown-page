@@ -22,22 +22,22 @@
 
 
 
-###  Elena2EHV  ###
+###  Elena2Eindhoven  ###
 # dependencies
-/Elena2EHV/node_modules
+/Elena2Eindhoven/node_modules
 
 # testing
-/Elena2EHV/coverage
+/Elena2Eindhoven/coverage
 
 # production
-/Elena2EHV/build
+/Elena2Eindhoven/build
 
 # misc
-/Elena2EHV/.DS_Store
-/Elena2EHV/.env
-/Elena2EHV/npm-debug.log*
-/Elena2EHV/yarn-debug.log*
-/Elena2EHV/yarn-error.log*
+/Elena2Eindhoven/.DS_Store
+/Elena2Eindhoven/.env
+/Elena2Eindhoven/npm-debug.log*
+/Elena2Eindhoven/yarn-debug.log*
+/Elena2Eindhoven/yarn-error.log*
 
 # Images
-/Elena2EHV/development-images
+/Elena2Eindhoven/development-images
