@@ -1,1 +1,43 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
+
+###  Cruise  ###
+# dependencies
+/Cruise/node_modules
+
+# testing
+/Cruise/coverage
+
+# production
+/Cruise/build
+
+# misc
+/Cruise/.DS_Store
+/Cruise/.env
+/Cruise/npm-debug.log*
+/Cruise/yarn-debug.log*
+/Cruise/yarn-error.log*
+
+# Images
+/Cruise/development-images
+
+
+
+###  Elena2EHV  ###
+# dependencies
+/Elena2EHV/node_modules
+
+# testing
+/Elena2EHV/coverage
+
+# production
+/Elena2EHV/build
+
+# misc
+/Elena2EHV/.DS_Store
+/Elena2EHV/.env
+/Elena2EHV/npm-debug.log*
+/Elena2EHV/yarn-debug.log*
+/Elena2EHV/yarn-error.log*
+
+# Images
+/Elena2EHV/development-images
