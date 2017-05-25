@@ -3,44 +3,45 @@
 
 ###  Component  ###
 # dependencies
-/Component-tmp/node_modules
+/Component/node_modules
 
 # testing
-/Component-tmp/coverage
+/Component/coverage
 
 # production
-/Component-tmp/build
+/Component/build
 
 # misc
-/Component-tmp/.DS_Store
-/Component-tmp/.env
-/Component-tmp/npm-debug.log*
-/Component-tmp/yarn-debug.log*
-/Component-tmp/yarn-error.log*
+/Component/.DS_Store
+/Component/.env
+/Component/npm-debug.log*
+/Component/yarn-debug.log*
+/Component/yarn-error.log*
 
 # Images
-/Component-tmp/development-images
+/Component/development-images
 
 
-###  Cruise-tmp  ###
+
+###  Cruise  ###
 # dependencies
-/Cruise-tmp/node_modules
+/Cruise/node_modules
 
 # testing
-/Cruise-tmp/coverage
+/Cruise/coverage
 
 # production
-/Cruise-tmp/build
+/Cruise/build
 
 # misc
-/Cruise-tmp/.DS_Store
-/Cruise-tmp/.env
-/Cruise-tmp/npm-debug.log*
-/Cruise-tmp/yarn-debug.log*
-/Cruise-tmp/yarn-error.log*
+/Cruise/.DS_Store
+/Cruise/.env
+/Cruise/npm-debug.log*
+/Cruise/yarn-debug.log*
+/Cruise/yarn-error.log*
 
 # Images
-/Cruise-tmp/development-images
+/Cruise/development-images
 
 
 
